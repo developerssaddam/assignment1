@@ -69,7 +69,7 @@ body {
 }
 
 /* Main area styles here */
-/* .discount_area {
+.discount_area {
   width: 60%;
   margin: 130px auto;
   text-align: center;
@@ -97,4 +97,4 @@ body {
   color: #070211;
   font-size: 48px;
   font-weight: 700;
-} */
+}
