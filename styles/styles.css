@@ -40,7 +40,7 @@ body {
 
 #container .banner::after {
   content: "";
-  background-color: black;
+  background-color: #000;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -97,4 +97,110 @@ body {
   color: #070211;
   font-size: 48px;
   font-weight: 700;
+}
+
+.invite_area {
+  width: 80%;
+  margin: 0px auto;
+  background-image: url("../images/Vectorrr.png");
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+  color: #fff;
+  position: relative;
+  z-index: 99;
+}
+
+.invite_area::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #000;
+  left: 0;
+  border-radius: 16px;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.invite_info {
+  flex-basis: 60%;
+}
+
+.desc {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 20px 0px;
+}
+
+.btn {
+  background-color: #f00;
+  border: none;
+  padding: 15px 30px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.invite_img {
+  flex-basis: 35%;
+}
+
+.dateAndTime {
+  width: 80%;
+  margin: 130px auto;
+  text-align: center;
+  background-color: #ffe8e8;
+  padding: 100px 0px;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.dateAndTime h5 {
+  color: #070211;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+}
+
+.dateAndTime span {
+  color: #f00;
+}
+
+.dateAndTime h5:nth-child(3) {
+  margin-bottom: 45px;
+}
+
+.upcomming {
+  width: 80%;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.upcomming_item {
+  flex-basis: 28%;
+  text-align: left;
+}
+
+.upcomming_item h4 {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.upcomming p {
+  color: #66636c;
+}
+
+.upimg {
+  border: 15px solid #f00;
+  border-radius: 50%;
+  padding: 20px;
 }
