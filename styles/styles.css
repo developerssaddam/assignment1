@@ -245,7 +245,7 @@ body {
 .img1 {
   position: absolute;
   left: 0px;
-  bottom: 18px;
+  bottom: 20px;
   width: 50%;
   z-index: 1;
 }
@@ -260,11 +260,13 @@ body {
 .img3 {
   position: absolute;
   right: 0;
+  display: inline-block;
 }
 
 .img4 {
   position: absolute;
   bottom: 0;
+  display: inline-block;
 }
 
 .portfolio {
